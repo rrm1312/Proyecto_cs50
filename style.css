@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 *{
   padding: 0;
   margin: 0;
 }
-nav
+.Navbar
 {
+  padding: 12px;
   display: flex;
+  flex-direction: row;
   position: relative;
   width: 100vw;
-  height: 45px;
+  height: 70px;
   background-color: #FD841F;
   justify-content: space-around;
 }
@@ -21,11 +23,11 @@ ul{
   justify-content: space-between;
   align-items: center;
 }
-li
+.nav-item
 {
   font-size: 20px;
   font-family: 'Poppins';
-
+  color: #000;
 }
 
 #l1
@@ -51,10 +53,12 @@ li
   font-size: 30px;
   font-weight: 300;
   text-align: left;
+  color: #000;
 }
 
 .perro
 {
+display: flex;
 height: 80vh;
 width: 25%;
 float: left;

@@ -5,31 +5,52 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  
   <title>Hope&Adoption</title>
 </head>
 <body>
   <nav>
-    <img src="/resources/dog.png" alt="logo">
-    <ul class = "Navbar">
-      <li>Home</li>
-      <li>About</li>
-      <li>Adopt</li>
-      <li>Donate</li>
-      <li>Volunteer</li>
-      <li>Contact Us</li>
+    <ul class="Navbar">
+      <li class="nav-item">
+        <img src="/resources/dog.png" alt="logo">
+
+      </li>
+      <a href="">
+        <li class="nav-item font-semibold text-2xl">Home</li>
+      </a>
+      <a href="">
+        <li class="nav-item font-semibold text-2xl">About</li>
+      </a>
+      <a href="">
+        <li class="nav-item font-semibold text-2xl">Adopt</li>
+      </a>
+      <a href="">
+        <li class="nav-item font-semibold text-2xl">Donate</li>
+      </a>
+      <a href="">
+        <li class="nav-item font-semibold text-2xl">Volunteer</li>
+      </a>
+      <a href="">
+        <li class="nav-item font-semibold text-2xl">Contact Us</li>
+      </a>
     </ul>
   </nav>
-  <div id ="l1">
-    <div class="texto">
-      <h1 id="titulo">HOPE & ADOPTION Shelter </h1>
-      <p>
-        Hope & Adoption  Shelter has both dogs and cats 
-        available for adoption. Open your heart and your home and adopt one. 
-      </p>
-      <button>Adopt Me</button>
+  <div class="grid grid-cols-2" id ="l1">
+    <div class="texto w-2/3 pt-20 pl-32 flex flex-col items-center">
+      <h1 class="text-[70px] text-center font-semibold	" id="titulo">HOPE & ADOPTION <br> Shelter </h1>
+      <div class="w-[39rem] h-[13rem] mt-14">
+        <p class="font-light text-[30px]">
+          Hope & Adoption  Shelter has both dogs and cats 
+          available for adoption. Open your heart and your home and adopt one. 
+        </p>
+      </div>
+      <button class="bg-[#ffb562] w-64 rounded-lg p-4 font-semibold text-[30px]">Adopt Me</button>
     </div>
     
-    <img class = "perro" src="/resources/dog-041 1.png" alt="perro">
+    <img class ="perro mt-8" src="/resources/dog-041 1.png" alt="perro">
 
 
   </div>
