@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 70px;
   background-color: #FD841F;
   justify-content: space-around;
@@ -59,7 +59,56 @@ ul{
 .perro
 {
 display: flex;
-height: 80vh;
-width: 25%;
+
 float: left;
+}
+
+#l2
+{
+  width: 100%;
+  height: 100vh;
+  background-color: #BAD4EE;
+  display: flex;
+}
+#circle1
+{
+  width: 80vh;
+}
+
+#l25
+{
+  display: flex;
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 900 !important;
+  text-align: center !important;
+  color: #000;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+#l26{
+  display: flex;
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 900 !important;
+  text-align: center !important;
+  color: #000;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+#l3
+{
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  font-size: 40px;
+  text-align: center !important;
+  background-color:#96CEB4 ;
+}
+#l4
+{
+  width: 100%;
+  height: 100vh;
+  background-color: #BAD4EE;
 }
