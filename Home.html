@@ -8,7 +8,58 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
   <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 450px;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
   
   <title>Hope&Adoption</title>
 </head>
@@ -16,7 +67,7 @@
   <nav>
     <ul class="Navbar">
       <li class="nav-item">
-        <img src="/resources/dog.png" alt="logo">
+        <img src="resources/dog.png" alt="logo">
 
       </li>
       <a href="">
@@ -50,18 +101,18 @@
       </div>
       <button class="bg-[#ffb562] w-64 rounded-lg p-4 font-semibold text-[30px]">Adopt Me</button>
     </div>
-    <img class ="perro mt-8" src="/resources/dog-041 1.png" alt="perro">
+    <img class ="perro mt-8" src="resources/dog-041 1.png" alt="perro">
   </div>
 
   <div class="second-section" id="l2">
     <div class="container mt-5" style="margin-top: 100px !important;">
       <div class="row">
         <div class="col-lg-6">
-          <img class="circle1" style="margin-right:100px;" src="/resources/Ellipse 1.png" alt="circle1">
+          <img class="circle1" style="margin-right:100px;" src="resources/Ellipse 1.png" alt="circle1">
           <h1 class="text-center font-semibold" id="l26">123 <br> In Search of Hope</h1>
         </div>
         <div class="col-lg-6">
-          <img class="img-fluid" style="margin-left:100px;" src="/resources/Ellipse 2.png" alt="circle2s">
+          <img class="img-fluid" style="margin-left:100px;" src="resources/Ellipse 2.png" alt="circle2s">
           <h1 class="text-center font-semibold" id="l25">200<br>Successful Adoptions</h1>
         </div>
       </div>
@@ -77,29 +128,102 @@
     </div>
     
     <div class="carousel" id="l4">
-       <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide4" className="btn btn-circle">❮</a> 
-          <a href="#slide2" className="btn btn-circle">❯</a>
-       </div>
-       <div class="carousel-item" style="margin-top: 150px;">
-        <img src="/resources/Carrusel.png" alt="Pizza" />
-       >
+       <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="card w-40 bg-base-100 shadow-xl swiper-slide">
+          <figure>
+            <img src="resources/Buddy-el-perrito-que-se-quedo-ciego-5 5.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
       </div> 
-      <div class="carousel-item" style="margin-top: 150px; margin-left: 500px;">
-        <img src="/resources/Carrusel (1).png" alt="Pizza" />
       </div> 
-      <div class="carousel-item" style="margin-top: 150px; margin-left: 600px;">
-        <img src="/resources/Carrusel (2).png" alt="Pizza" />
+
+        <div class="card w-96 bg-base-100 shadow-xl swiper-slide">
+          <figure>
+            <img src="resources/pngwing 3.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+        <div class="card w-96 bg-base-100 shadow-xl swiper-slide">
+          <figure>
+            <img src="resources/Gato-Esfinge-sphynx_2 3.png" alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
       </div> 
+      
+    </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </div>
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 20,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        });
+      </script>
+      </div> 
     </div>
     
-    
-    
-
-
+    <div class="five-section" id="l8" style="margin-top: 6px; background-color: #FFB562;">
+      <h1 class="text-center font-bold " style="margin-top: 4px;">Be part of changue with us</h1>
+    </div>
+    <div class="gallery" style="background-color: #BAD4EE;">
+      <div style="margin-left: 5;">
+        <img src="/Proyecto_cs50-main/resources/6a48465111f364625d76bc77ed480e81 1.png" alt="">
+      </div>
+    </div>
+    <div>
+      <footer class="footer p-10 bg-base-200 text-base-content" style="background-color: #96CEB4;">
+        <div>
+          <span class="footer-title font-semibold" style="color:#000;">Reach us</span> 
+          <a class="link link-hover">Branding</a> 
+          <a class="link link-hover">Design</a> 
+          <a class="link link-hover">Marketing</a> 
+          <a class="link link-hover">Advertisement</a>
+        </div> 
+        <div>
+          <span class="footer-title">Company</span> 
+          <a class="link link-hover">About us</a> 
+          <a class="link link-hover">Contact</a> 
+         
+        </div> 
+        <div>
+          <span class="footer-title">Legal</span> 
+          <a class="link link-hover">Privacy Policy</a> 
+          <a class="link link-hover">Terms & Services</a> 
+          <a class="link link-hover">Terms of Use</a>
+          <a class="link link-hover">Refund Policy</a>
+        </div>
+      </footer> 
+    </div>
+        
   </div>
 
 </body>
