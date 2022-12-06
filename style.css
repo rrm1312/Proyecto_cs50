@@ -106,19 +106,11 @@ float: left;
   color: #000;
   font-size: 40px;
   text-align: center !important;
-  background-color:#96CEB4 ;
-  margin-bottom: 60px;
+
 }
 #l4
 {
   width: 100%;
   height: 100vh;
   background-color: #BAD4EE;
-}
-.l8{
-  width: 15;
-  height: 10;
-  background-color: #FFB562;
-  font-size: 40px;
-
 }
