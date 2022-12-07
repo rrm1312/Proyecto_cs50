@@ -12,38 +12,26 @@
   <script src="https://cdn.tailwindcss.com"></script>
   
   <!-- Demo styles -->
-  <style>
-    html,
-    .swiper {
-      width: 100%;
-      height: 450px;
-    }
+  <style> 
+    .swiper-slide { 
+      font-size: 18px; 
+      background: #fff; 
+      -webkit-box-pack: center; 
+      -ms-flex-pack: center; 
+      -webkit-justify-content: center; 
+      justify-content: center; 
+      -webkit-box-align: center; 
+      -ms-flex-align: center; 
+      -webkit-align-items: center; 
+      align-items: center; 
+    } 
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      width: 500px;
-      background: #fff;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: none;
-    }
+    .swiper-slide img { 
+      display: block; 
+      width: 100%; 
+      height: 100%; 
+      object-fit: cover; 
+    } 
   </style>
   
   <title>Hope&Adoption</title>
@@ -112,47 +100,204 @@
     </div>
     
     <div class="carousel" id="l4">
-       <!-- Swiper -->
-    <div class="swiper mySwiper p-10">
-      <div class="swiper-wrapper">
-        <div class="card w-40 bg-base-100 shadow-xl swiper-slide">
-          <figure>
-            <img src="resources/Buddy-el-perrito-que-se-quedo-ciego-5 5.png" alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-      </div> 
-      </div> 
-
-        <div class="card w-96 bg-base-100 shadow-xl swiper-slide">
-          <figure>
-            <img src="resources/pngwing 3.png" alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+      <!-- Swiper -->
+      <div class="w-full p-5 h-[41rem] mySwiper pt-10">
+        <div class="swiper-wrapper">
+          <div class="rounded-xl w-[22rem] bg-white swiper-slide">
+            <div class="flex justify-between px-4 py-3">
+              <div class="flex items-center">
+                <p class="rounded-full border-2 border-black px-3 py-2 text-xl">
+                  2
+                </p>
+                <span class="text-xl ml-2">Years</span>
+              </div>
+              <div class="">
+                <img src="/resources/dog.png" alt="" />
+              </div>
+            </div>
+            <div class="px-4 rounded-md">
+              <img class="rounded-md" src="/resources/Buddy-el-perrito-que-se-quedo-ciego-5 5.png" alt="" />
+            </div>
+            <div class="px-4 py-2">
+              <p class="text-2xl font-medium">Dante</p>
+              <p class="text-xl font-light">
+                Active, affectionate and sociable
+              </p>
+            </div>
+            <div class="flex pb-4">
+              <span class="w-3 h-3 rounded-full bg-yellow-400 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Dog</p>
+              <span class="w-3 h-3 rounded-full bg-blue-900 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Criollo</p>
+            </div>
+          </div>
+          <div class="rounded-xl w-[22rem] bg-white swiper-slide">
+            <div class="flex justify-between px-4 py-3">
+              <div class="flex items-center">
+                <p class="rounded-full border-2 border-black px-3 py-2 text-xl">
+                  2
+                </p>
+                <span class="text-xl ml-2">Years</span>
+              </div>
+              <div class="">
+                <img src="/resources/dog.png" alt="" />
+              </div>
+            </div>
+            <div class="px-4 rounded-md">
+              <img class="rounded-md" src="/resources/pngwing 3 (2).png" alt="" />
+            </div>
+            <div class="px-4 py-2">
+              <p class="text-2xl font-medium">Dante</p>
+              <p class="text-xl font-light">
+                Active, affectionate and sociable
+              </p>
+            </div>
+            <div class="flex pb-4">
+              <span class="w-3 h-3 rounded-full bg-yellow-400 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Dog</p>
+              <span class="w-3 h-3 rounded-full bg-blue-900 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Criollo</p>
+            </div>
+          </div>
+          <div class="rounded-xl w-[22rem] bg-white swiper-slide">
+            <div class="flex justify-between px-4 py-3">
+              <div class="flex items-center">
+                <p class="rounded-full border-2 border-black px-3 py-2 text-xl">
+                  2
+                </p>
+                <span class="text-xl ml-2">Years</span>
+              </div>
+              <div class="">
+                <img src="/resources/dog.png" alt="" />
+              </div>
+            </div>
+            <div class="px-4 rounded-md">
+              <img class="rounded-md" src="/resources/pngwing 3.png" alt="" />
+            </div>
+            <div class="px-4 py-2">
+              <p class="text-2xl font-medium">Dante</p>
+              <p class="text-xl font-light">
+                Active, affectionate and sociable
+              </p>
+            </div>
+            <div class="flex pb-4">
+              <span class="w-3 h-3 rounded-full bg-yellow-400 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Dog</p>
+              <span class="w-3 h-3 rounded-full bg-blue-900 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Criollo</p>
+            </div>
+          </div>
+          <div class="rounded-xl w-[22rem] bg-white swiper-slide">
+            <div class="flex justify-between px-4 py-3">
+              <div class="flex items-center">
+                <p class="rounded-full border-2 border-black px-3 py-2 text-xl">
+                  2
+                </p>
+                <span class="text-xl ml-2">Years</span>
+              </div>
+              <div class="">
+                <img src="/resources/dog.png" alt="" />
+              </div>
+            </div>
+            <div class="px-4 rounded-md">
+              <img class="rounded-md" src="/resources/pngwing 3 (1).png" alt="" />
+            </div>
+            <div class="px-4 py-2">
+              <p class="text-2xl font-medium">Dante</p>
+              <p class="text-xl font-light">
+                Active, affectionate and sociable
+              </p>
+            </div>
+            <div class="flex pb-4">
+              <span class="w-3 h-3 rounded-full bg-yellow-400 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Dog</p>
+              <span class="w-3 h-3 rounded-full bg-blue-900 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Criollo</p>
+            </div>
+          </div>
+          <div class="rounded-xl w-[22rem] bg-white swiper-slide">
+            <div class="flex justify-between px-4 py-3">
+              <div class="flex items-center">
+                <p class="rounded-full border-2 border-black px-3 py-2 text-xl">
+                  2
+                </p>
+                <span class="text-xl ml-2">Years</span>
+              </div>
+              <div class="">
+                <img src="/resources/dog.png" alt="" />
+              </div>
+            </div>
+            <div class="px-4 rounded-md">
+              <img class="rounded-md" src="/resources/Gato-Esfinge-sphynx_2 3.png" alt="" />
+            </div>
+            <div class="px-4 py-2">
+              <p class="text-2xl font-medium">Dante</p>
+              <p class="text-xl font-light">
+                Active, affectionate and sociable
+              </p>
+            </div>
+            <div class="flex pb-4">
+              <span class="w-3 h-3 rounded-full bg-yellow-400 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Dog</p>
+              <span class="w-3 h-3 rounded-full bg-blue-900 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Criollo</p>
+            </div>
+          </div>
+          <div class="rounded-xl w-[22rem] bg-white swiper-slide">
+            <div class="flex justify-between px-4 py-3">
+              <div class="flex items-center">
+                <p class="rounded-full border-2 border-black px-3 py-2 text-xl">
+                  2
+                </p>
+                <span class="text-xl ml-2">Years</span>
+              </div>
+              <div class="">
+                <img src="/resources/dog.png" alt="" />
+              </div>
+            </div>
+            <div class="px-4 rounded-md">
+              <img class="rounded-md" src="/resources/pngwing 3 (2).png" alt="" />
+            </div>
+            <div class="px-4 py-2">
+              <p class="text-2xl font-medium">Dante</p>
+              <p class="text-xl font-light">
+                Active, affectionate and sociable
+              </p>
+            </div>
+            <div class="flex pb-4">
+              <span class="w-3 h-3 rounded-full bg-yellow-400 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Dog</p>
+              <span class="w-3 h-3 rounded-full bg-blue-900 mt-2 ml-6"> </span>
+              <p class="text-normal pr-8 pl-2">Criollo</p>
+            </div>
           </div>
         </div>
-        <div class="card w-96 bg-base-100 shadow-xl swiper-slide">
-          <figure>
-            <img src="resources/Gato-Esfinge-sphynx_2 3.png" alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-      </div> 
-      
-    </div>
-        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 20,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        });
+      </script>
+
+    </div>
+   
 
     <!-- Initialize Swiper -->
     <script>
@@ -179,8 +324,8 @@
       <h1 class="text-center font-bold text-2xl">Be part of changue with us</h1>
     </div>
     <div class="flex" style="background-color: #BAD4EE;">
-      <div class="w-1/3">
-        <img class="flex-none p-5 ml-5 mt-2 " src="/resources/6a48465111f364625d76bc77ed480e81 1.png" alt="">
+      <div class="w-1/3 ">
+        <img class="flex-none p-5 ml-5 mt-2  " src="/resources/6a48465111f364625d76bc77ed480e81 1.png" alt="">
       </div>
       <div class="shrink w-1/3 h-14 p-5 ">
         <img class="border-8 border-[#FD841F] mb-2"src="/resources/MASCOTAS 1.png" alt="">
@@ -219,3 +364,4 @@
 
 </body>
 </html>
+
